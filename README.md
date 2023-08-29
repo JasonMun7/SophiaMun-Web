@@ -1,6 +1,6 @@
 # Sophia Mun's Personal Portfolio Website
 
-This repository contains the source code for Sophia Mun's personal portfolio website, designed and developed by [Your Name]. The website is built on React and Vite, optimized for fast performance with features like Hot Module Replacement (HMR) and linting via ESLint.
+This repository contains the source code for Sophia Mun's personal portfolio website, designed and developed by Jason Mun. The website is built on React and Vite, optimized for fast performance. 
 
 ## Features
 
