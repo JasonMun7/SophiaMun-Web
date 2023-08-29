@@ -1,6 +1,6 @@
 # Sophia Mun's Personal Portfolio Website
 
-This repository contains the source code for Sophia Mun's personal portfolio website, designed and developed by Jason Mun. The website is built on React and Vite, optimized for fast performance. 
+Welcome to the personal website of Sophia Mun developed by Jason Mun. This platform serves as a comprehensive repository of her academic achievements, professional portfolio, and contributions to the community. Visitors will find a curated selection of her services and ongoing projects, offering a glimpse into her dedication and skill set. Designed as an interactive resume, the website aims to provide a holistic understanding of Sophia's expertise.
 
 ## Features
 
