@@ -10,7 +10,7 @@ import '../../styles/style.css'
 
 // Import Component
 import Greeting from '../components/greeting.jsx'
-import ShootingStar from '../components/shootingStar.jsx'
+import ShootingStar from '../components/canvas/shootingStar.jsx'
 
 // Function in order to control the camera with mouse
 function CameraControls() {

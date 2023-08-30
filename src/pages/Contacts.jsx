@@ -3,7 +3,11 @@ import SectionWrapper from '../hoc/SectionWrapper.jsx'
 import { slideIn } from '../utils/motion.js'
 import { motion } from 'framer-motion'
 import emailjs from '@emailjs/browser'
+import { Canvas } from '@react-three/fiber'
+import { Preload } from '@react-three/drei'
 
+// Components
+import Moon from '../components/canvas/moonModel.jsx'
 
 const Contacts = () => {
     const [loading, setLoading] = useState(false)
@@ -71,6 +75,27 @@ const Contacts = () => {
                         {loading ? 'Sending...' : 'Send'}
                     </button>
                 </form>
+            </motion.div>
+
+            <motion.div
+                variants={slideIn("right", "tween", 0.2, 1)}
+                className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+            >
+                <Canvas
+                    shadows
+                    frameloop='demand'
+                    dpr={[1, 2]}
+                    gl={{ preserveDrawingBuffer: true }}
+                    camera={{
+                        fov: 45,
+                        near: 0.1,
+                        far: 200,
+                        position: [-4, 3, 6],
+                    }}
+                >
+                    <Moon />
+                    <Preload all />
+                </Canvas>
             </motion.div>
         </div>
     </>

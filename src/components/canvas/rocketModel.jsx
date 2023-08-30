@@ -28,9 +28,6 @@ export default function Rocket() {
         action.play()
     }, [])
 
-    console.log(rocket)
-
-
     return <>
         <Float speed={3} floatIntensity={3}>
             <group ref={groupRef}>

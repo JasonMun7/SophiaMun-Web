@@ -1,16 +1,16 @@
 // Icon images
-import soapIconL from '../assets/soapIconL.png'
-import cereal from '../assets/cereal.png'
-import winter from '../assets/winter.png'
-import rainn from '../assets/rainn.png'
-import senior from '../assets/senior.png'
-import violin from '../assets/violin.png'
-import heart from '../assets/heart.png'
+import soapIconL from '../assets/service/soapIconL.png'
+import cereal from '../assets/service/cereal.png'
+import winter from '../assets/service/winter.png'
+import rainn from '../assets/service/rainn.png'
+import senior from '../assets/service/senior.png'
+import violin from '../assets/service/violin.png'
+import heart from '../assets/service/heart.png'
 
 // Images for Leadership
-import sbo from '../assets/sbo.jpg'
-import userve from '../assets/userve.jpg'
-import symphony from '../assets/symphony.jpg'
+import sbo from '../assets/leadership/sbo.jpg'
+import userve from '../assets/leadership/userve.jpg'
+import symphony from '../assets/leadership/symphony.jpg'
 
 
 const communityService = [

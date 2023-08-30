@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Text3D, Text, useMatcapTexture, Image, QuadraticBezierLine } from '@react-three/drei';
 
 // import Components
-import Rocket from './rocketModel'
+import Rocket from './canvas/rocketModel'
 import HeadShot from './headShot'
 import Header from './headerText'
 
