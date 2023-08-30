@@ -23,7 +23,7 @@ const Card = ({ index, title, img, description }) => {
                     scale: 1,
                     speed: 450
                 }}
-                className='bg-[#0b1328] p-5 rounded-2xl sm:w-[360px] h-[520px] w-full'
+                className='bg-[#0b1328] p-5 rounded-2xl sm:w-[360px] h-[500px] w-full'
             >
                 <div className='flex flex-col h-full justify-between'>
                     <div>

@@ -10,6 +10,7 @@ export default {
         'blue-black-gradient': 'linear-gradient(to bottom, #101B38, #000000)',
         'card-gradient': 'linear-gradient(to bottom,#000000 ,#000428)',
         'black-hole-gradient': 'radial-gradient(circle at 80% center , #000000 0%, #101B38 15%)',
+        'service-background': "url('./src/assets/colorkit.png')",
       },
       colors: {
         'metal-gray': '#B5B6BA',

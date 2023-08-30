@@ -3,6 +3,7 @@ import SectionWrapper from '../hoc/SectionWrapper.jsx'
 import { motion } from 'framer-motion'
 import { textVariant } from '../utils/motion.js'
 import { Canvas } from '@react-three/fiber'
+import { Preload } from '@react-three/drei'
 import * as THREE from 'three'
 
 // Import Components
@@ -17,19 +18,18 @@ const Awards = () => {
             </motion.div>
         </section>
 
-        <section className='h-[500px]'>
+        <section className='h-[1000px]'>
             <Canvas
                 shadows
-                frameloop='demand'
-                dpr={[1, 2]}
                 gl={{ preserveDrawingBuffer: true }}
                 camera={{
                     fov: 45,
                     near: 0.1,
                     far: 200,
-                    position: [0, 0, 10],
+                    position: [0, 0, 9],
                 }}>
                 <Award />
+                <Preload all />
             </Canvas>
         </section>
 

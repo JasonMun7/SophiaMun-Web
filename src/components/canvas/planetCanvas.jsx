@@ -5,17 +5,11 @@ import { OrbitControls, Float, Decal, Preload, useTexture, Html } from '@react-t
 
 const Planet = (props) => {
     const [decal] = useTexture([props.imgUrl])
-    const [showInfo, setShowInfo] = useState(false)
-
-    const handleClick = () => {
-        setShowInfo(!showInfo)
-    }
-
     return <>
         <Float speed={2} rotationIntensity={0.5} floatIntensity={2}>
             <ambientLight intensity={0.3} />
             <directionalLight intensity={3} position={[0, 0, 0.1]} />
-            <mesh castShadow receiveShadow scale={2.75} onClick={handleClick}>
+            <mesh castShadow receiveShadow scale={2.75}>
                 <icosahedronGeometry args={[1, 1]} />
                 <meshStandardMaterial
                     color="#FFFFFF"
@@ -31,13 +25,6 @@ const Planet = (props) => {
                 />
             </mesh>
         </Float>
-        {showInfo &&
-            <Html position={[0, 0, 3]}>
-                <div className='text-white'>
-                    {props.description}
-                </div>
-            </Html>
-        }
     </>
 }
 
