@@ -32,10 +32,11 @@ Welcome to the personal website of Sophia Mun developed by Jason Mun. This platf
 
 ## Installation & Setup 📦
 
-1️⃣ Clone the repository.
-2️⃣ Navigate to the project directory.
-3️⃣ Run `npm install` to install dependencies.
-4️⃣ Run `npm run dev` to start the local development server.
+1. Clone the repository to your local machine.
+2. Navigate to the project folder in your terminal.
+3. Run `npm install` to install the required packages.
+4. Run `npm run dev` to start the development server.
+5. Open your browser and go to `http://localhost:3000`.
 
 ---
 
