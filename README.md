@@ -15,14 +15,6 @@ Welcome to the personal website of Sophia Mun developed by Jason Mun. This platf
 
 ---
 
-## Technologies Used 🖥️
-
-- React for UI components
-- Vite for build optimization and development server
-- Blender for 3D Models
-
----
-
 ## Official Plugins 🔌
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) leverages [Babel](https://babeljs.io/) for Fast Refresh 🔄.
@@ -31,12 +23,35 @@ Welcome to the personal website of Sophia Mun developed by Jason Mun. This platf
 ---
 
 ## Installation & Setup 📦
+1. **Clone this Repository**
+    ```bash
+    git clone https://github.com/yourusername/Sophia-Mun-Portfolio.git
+    ```
 
-1. Clone the repository to your local machine.
-2. Navigate to the project folder in your terminal.
-3. Run `npm install` to install the required packages.
-4. Run `npm run dev` to start the development server.
-5. Open your browser and go to `http://localhost:3000`.
+2. **Navigate to the Project Folder**
+    ```bash
+    cd Sophia-Mun-Portfolio
+    ```
+
+3. **Install Dependencies**
+    ```bash
+    npm install
+    ```
+
+4. **Run the Development Server**
+    ```bash
+    npm run dev
+    ```
+
+5. **Explore the Portfolio**: Open your web browser and navigate to `http://localhost:3000` to explore Sophia's portfolio! 🌐
+
+---
+
+## Technologies Used 🖥️
+
+- React for UI components
+- Vite for build optimization and development server
+- Blender for 3D Models
 
 ---
 
