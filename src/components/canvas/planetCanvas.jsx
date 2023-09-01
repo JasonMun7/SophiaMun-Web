@@ -6,7 +6,7 @@ import { OrbitControls, Float, Decal, Preload, useTexture, Html } from '@react-t
 const Planet = (props) => {
     const [decal] = useTexture([props.imgUrl])
     return <>
-        <Float speed={2} rotationIntensity={0.5} floatIntensity={2}>
+        <Float speed={5} rotationIntensity={1} floatIntensity={3}>
             <ambientLight intensity={0.3} />
             <directionalLight intensity={3} position={[0, 0, 0.1]} />
             <mesh castShadow receiveShadow scale={2.75}>

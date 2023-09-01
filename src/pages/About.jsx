@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import '../../styles/styles.js'
 import { fadeIn, textVariant } from '../utils/motion.js'
 import { Canvas } from '@react-three/fiber'
+import { Preload } from '@react-three/drei'
 import * as THREE from 'three'
 
 // Components
@@ -44,6 +45,7 @@ function About() {
                         }}
                     >
                         <RocketIdle />
+                        <Preload all />
                     </Canvas>
                 </section>
             </div>
