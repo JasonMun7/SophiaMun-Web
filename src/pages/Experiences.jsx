@@ -44,8 +44,8 @@ function Experiences() {
                                 <div className='mt-5'>{selectedService?.description}</div>
                             </div>
 
-                            <div className='mr-20 flex-none max-w-[350px] max-h-[350px]'>
-                                <img src={selectedService?.image} className='object-contain w-full h-full rounded-2xl' />
+                            <div className='mr-20 flex-none max-w-[280px] max-h-[280px] items-center'>
+                                <img src={selectedService?.image} className='object-contain rounded-2xl' />
                             </div>
                         </div>
                     }

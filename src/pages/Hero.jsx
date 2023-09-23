@@ -29,7 +29,7 @@ function CameraControls() {
   return null;
 }
 
-export default function Experience() {
+export default function Hero() {
 
   return (
     <>

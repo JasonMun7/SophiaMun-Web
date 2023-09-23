@@ -15,7 +15,7 @@ body,
     display: none;
 }
 
-.cursor {
+/* .cursor {
     width: 20px;
     height: 20px;
     border: 2px solid white;
@@ -25,4 +25,4 @@ body,
     pointer-events: none;
     transition: all 0.1s ease;
     z-index: 10000;
-}
+} */

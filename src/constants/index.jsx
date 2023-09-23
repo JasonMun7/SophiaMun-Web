@@ -9,6 +9,10 @@ import heart from '../assets/service/heart.png'
 
 // Images for Services
 import garage from '../assets/service/serviceImgs/garage.jpg'
+import utahArtsVolunteer from '../assets/service/serviceImgs/utahArtsVolunteer.jpg'
+import seniorVolunteer from '../assets/service/serviceImgs/seniorVolunteer.jpg'
+import cerealVolunteer from '../assets/service/serviceImgs/cerealVolunteer.jpg'
+import canyonsVolunteer from '../assets/service/serviceImgs/canyonsVolunteer.jpg'
 
 // Images for Leadership
 import sbo from '../assets/leadership/sbo.jpg'
@@ -37,37 +41,37 @@ const communityService = [
     {
         name: 'Cereal Fundraiser',
         icon: cereal,
-        image: '',
+        image: cerealVolunteer,
         description: 'As Hillcrest Student Government, we are hosting a cereal fundraiser for our pantry at school! We are trying to collect a lot more so even more students and more families are able to be provided with them!'
     },
     {
         name: 'Winter Rainn Fundraiser',
         icon: rainn,
-        image: '',
+        image: sbo,
         description: 'This fundraiser was done when I was Sophomore Vice President! We were raising money to donate all to the foundation Rainn! We went through many places, neighborhoods, and companies to have them donate. We also hosted a Winter fundraiser assembly where the sole purpose was to fundraise money!'
     },
     {
         name: 'Winter Brother and Sisters Fundraiser',
         icon: winter,
-        image: '',
+        image: sbo,
         description: 'This fundraiser was done when I was Junior Class President! We were raising money for another organization called the Brothers and Sisters foundation. We utilized many clubs and groups to spread the word and also converse with local businesses about donating to our fundraiser! We raised over $20,000 dollars in the process!'
     },
     {
         name: 'Abbington Murray Memory care Volunteer',
         icon: senior,
-        image: '',
+        image: seniorVolunteer,
         description: 'I have been volunteering at this center for about 2 years! I do anything from helping with their activities, playing music, as well as just reaching out to the seniors to make them feel more comfortable. I mainly help in the memory care enter.'
     },
     {
         name: 'Violin Service',
         icon: violin,
-        image: '',
+        image: utahArtsVolunteer,
         description: 'I have been playing the violin for the elderly for about 5 years now! I go weekly at Canyons Church and through Utah youth orchestra and ensembles, we have been to retirement centers and public neighborhoods to play for them! Additionally, During the Utah Summer arts festival, Utah Youth orchestra and ensembles gathered an octet with me playing the violin to go and play in a shop! We spent a couple hours there playing for customers as they walked in.'
     },
     {
         name: 'Justserve Volunteering',
         icon: heart,
-        image: '',
+        image: justServe,
         description: 'For justserve, I have volunteered as an ambassador to help spread the word about the program. It’s very useful in being more knowledged on projects happening around you as well as getting more involved in service!'
     },
 ]
