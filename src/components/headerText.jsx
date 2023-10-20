@@ -14,8 +14,8 @@ export default function Header({ isMobile }) {
             <Text3D
                 size={isMobile ? 0.2 : 1}
                 font="../../helvetiker_regular.typeface.json"
-                position={isMobile ? [0, 0, 0] : [-6, 1.5, 0]}
-                rotation-y={Math.PI * 0.05}
+                position={isMobile ? [-1., 0, 0] : [-6, 1.5, 0]}
+                rotation-y={isMobile ? 0 : Math.PI * 0.05}
                 lineHeight={0.9}
                 bevelEnabled={true}
                 bevelThickness={0.2}
@@ -29,10 +29,10 @@ export default function Header({ isMobile }) {
             </Text3D >
 
             <Text3D
-                size={0.3}
+                size={isMobile ? 0.1 : 0.3}
                 font="../../helvetiker_regular.typeface.json"
-                rotation-y={Math.PI * 0.05}
-                position={[-5.5, -0.8, 0]}
+                rotation-y={isMobile ? 0 : Math.PI * 0.05}
+                position={isMobile ? [-1., -0.5, 0] : [-5.5, -0.8, 0]}
                 bevelEnabled={true}
                 bevelThickness={0.1}
                 curveSegments={12}

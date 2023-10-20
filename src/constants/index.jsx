@@ -120,8 +120,8 @@ const leadership = [
 
 const awards = [
     {
-        description: 'AP Scholar',
-        position: [Math.cos((0 / numAwards) * 2 * Math.PI + Math.PI / 2) * radius - 0.5, Math.sin((0 / numAwards) * 2 * Math.PI + Math.PI / 2) * radius - 0.9, 1]
+        description: 'DYW Woman of \n   Utah Winner',
+        position: [Math.cos((0 / numAwards) * 2 * Math.PI + Math.PI / 2) * radius - 0.7, Math.sin((0 / numAwards) * 2 * Math.PI + Math.PI / 2) * radius - 0.9, 1]
     },
     {
         description: 'National honors society',

@@ -12,15 +12,15 @@ import SectionWrapper from '../hoc/SectionWrapper.jsx'
 
 function About() {
     return <>
-        <section className='bg-black-hole-gradient'>
-            <div className="flex flex-row ">
+        <section className='sm:bg-black-hole-gradient'>
+            <div className="flex flex-row flex-wrap">
                 <div className='flex flex-col'>
                     <motion.div variants={textVariant()}>
                         <p className='text-metal-gray tracking-widest font-semibold '>Introduction</p>
-                        <h2 className="text-metal-gray text-8xl font-bold mt-4">Overview</h2>
+                        <h2 className="text-metal-gray text-5xl sm:text-8xl font-bold mt-4">Overview</h2>
                     </motion.div>
 
-                    <motion.p variants={fadeIn("", "", 0.1, 1)} className='text-metal-gray  max-w-4xl text-xl mt-4 leading-[40px]'>
+                    <motion.p variants={fadeIn("", "", 0.1, 1)} className='text-metal-gray  max-w-2xl sm:max-w-4xl text-xl mt-4 leading-[40px]'>
                         Im a senior at Hillcrest high School! Im a very outgoing
                         person and I love to be with my friends constantly!
                         I also like to get involved with my community especially
@@ -34,7 +34,7 @@ function About() {
 
                 <section className='flex flex-grow'>
                     <Canvas
-                        className='w-full'
+                        className='max-w-[1300px]'
                         flat
                         shadows
                         gl={{

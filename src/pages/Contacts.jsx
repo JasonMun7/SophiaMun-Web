@@ -25,11 +25,35 @@ const Contacts = () => {
     }
 
     const submitHandler = (e) => {
-        e.preventDefault()
-        setLoading(true)
+        e.preventDefault();
+        setLoading(true);
 
-        emailjs.send()
-    }
+        // Define EmailJS service, template, and user IDs
+        const serviceId = "YOUR_SERVICE_ID";
+        const templateId = "YOUR_TEMPLATE_ID";
+        const userId = "YOUR_USER_ID";
+
+        // Define email parameters based on your EmailJS template
+        const emailParams = {
+            to_name: "Recipient Name",
+            to_email: "123@gmail.com",
+            from_name: emailForm.name,
+            from_email: emailForm.email,
+            message: emailForm.message,
+        };
+
+        // Send the email
+        emailjs.send(serviceId, templateId, emailParams, userId)
+            .then(response => {
+                console.log('Email successfully sent!', response.status, response.text);
+                setLoading(false);
+            })
+            .catch(err => {
+                console.error('Email send failed:', err);
+                setLoading(false);
+            });
+    };
+
 
     return <>
         <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden ">

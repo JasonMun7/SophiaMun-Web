@@ -11,10 +11,6 @@ import React, { useState, useEffect } from 'react'
 const Card = ({ index, title, img, description }) => {
     const [learnMore, setlearnMore] = useState(true)
 
-    const onClick = () => {
-        setlearnMore(!learnMore)
-    }
-
     return <>
         <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.8)}>
             <Tilt
@@ -51,7 +47,7 @@ function Leadership() {
     return <>
         <motion.div variants={textVariant()} className=''>
             <p className='text-metal-gray tracking-widest font-semibold'>Some leadership roles I have done</p>
-            <div className="text-metal-gray text-8xl font-bold mt-4">Leadership</div>
+            <div className="text-metal-gray text-5xl sm:text-8xl font-bold mt-4">Leadership</div>
         </motion.div>
 
         <div className='mt-20 flex flex-wrap gap-7'>

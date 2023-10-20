@@ -36,7 +36,5 @@ root.render(
         </section>
       </div>
     </Suspense>
-
-
   </>
 )

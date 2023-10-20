@@ -10,8 +10,6 @@ import '../../styles/style.css'
 
 // Import Component
 import Greeting from '../components/greeting.jsx'
-import ShootingStar from '../components/canvas/shootingStar.jsx'
-
 // Function in order to control the camera with mouse
 function CameraControls() {
   const cameraRef = useRef();
@@ -51,7 +49,6 @@ export default function Hero() {
           }}
         >
           {/* <CameraControls /> */}
-          <ShootingStar />
           <Stars radius={50} count={1200} factor={5} saturation={false} fade speed={3} />
           <Greeting />
           <Preload all />

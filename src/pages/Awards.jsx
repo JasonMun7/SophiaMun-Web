@@ -14,11 +14,11 @@ const Awards = () => {
         <section className=''>
             <motion.div variants={textVariant()}>
                 <p className='text-metal-gray tracking-widest font-semibold'>Some of My Awards</p>
-                <div className="text-metal-gray text-8xl font-bold mt-4">Awards</div>
+                <div className="text-metal-gray text-5xl sm:text-8xl font-bold mt-4">Awards</div>
             </motion.div>
         </section>
 
-        <section className='h-[1000px]'>
+        <section className='h-[400px] sm:h-[1000px]'>
             <Canvas
                 shadows
                 gl={{ preserveDrawingBuffer: true }}
@@ -32,8 +32,6 @@ const Awards = () => {
                 <Preload all />
             </Canvas>
         </section>
-
-
     </>
 }
 

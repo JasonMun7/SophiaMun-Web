@@ -5,6 +5,7 @@ import { Text3D, Text, useMatcapTexture, Image, QuadraticBezierLine } from '@rea
 import Rocket from './canvas/rocketModel'
 import HeadShot from './headShot'
 import Header from './headerText'
+import ShootingStar from './canvas/shootingStar'
 
 export default function Greeting() {
     const [isMobile, setIsMobile] = useState(false)
@@ -29,7 +30,8 @@ export default function Greeting() {
 
     return <>
         <Header isMobile={isMobile} />
-        <HeadShot />
+        <HeadShot isMobile={isMobile} />
+        {isMobile ? null : <ShootingStar />}
         <Rocket />
     </>
 }
